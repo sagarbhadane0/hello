@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 3:"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtmsg1"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Look for the obtained number city and Remember it,"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtmsg"
+        android:layout_below="@+id/txtmsg1"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnext4"
+        android:layout_below="@+id/txtmsg"
+        android:text="Next step"
+        />
+
+
+</RelativeLayout>
